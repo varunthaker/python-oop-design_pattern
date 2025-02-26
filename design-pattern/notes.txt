@@ -1,0 +1,42 @@
+Design Patterns
+
+1. Creational Patterns: Better way of obj creation and reuse
+
+Singleton Pattern: 
+- Ensure a class has only one instance and provide a global point of access to it.
+- Example: Database connection
+
+Factory Pattern:
+- Define an interface for creating an object, but let subclasses decide which class to instantiate.
+- Example: Schema factory
+
+Builder Pattern: 
+- Construct complex obj step by step
+- Example: Construct Process in aiio, which has process details, process instance, process model
+         : Creating complex query
+
+2. Structural Patterns: Better assemble class and obj in larger structure
+
+Adapter Pattern: 
+- Convert the interface of a class into another interface clients expect.
+- Example: Creating a method to convert Convert pydantic to sqlalchemy
+
+Proxy Pattern
+- Provide a placeholder for another object to control access to it.
+- Example: Nginx, client-vermittler_firma-owner
+
+
+3. Behavioral Patterns: Better way of communication between classes
+
+Repository Pattern
+Decorator Pattern
+
+Observer Pattern:
+- Subscription mechanism to notify multiple objects about any events that happen to the observed object.
+- Example: Notification system if new tasks comes to an aiio user
+
+Strategy Pattern:
+- Define a family of algorithms, encapsulate each one, and make them interchangeable.
+- Example: Different way of navigation in a map
+
+
